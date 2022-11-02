@@ -1,0 +1,102 @@
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+    font-family: Roboto;
+    font-size: 10px;
+  
+    /* background: linear-gradient(#141e30, #243b55);	 */
+}
+td{
+padding-top: -1px;
+padding-bottom: -10px;
+}
+
+.table-bordered {
+    border: 1px solid #b1b1b1;
+}
+
+.table-bordered tbody tr td,
+.table-bordered tbody tr th,
+.table-bordered tfoot tr td,
+.table-bordered tfoot tr th,
+.table-bordered thead tr td,
+.table-bordered thead tr th,
+.table-bordered tr th,
+.table-bordered tr td {
+    border: 1px solid #b1b1b1 !important;
+}
+
+.table-bordered tr.header td,
+.table-bordered tr.footer td {
+    vertical-align: middle;
+    text-align: center;
+    padding: 5px 0;
+    font-weight: bold;
+}
+
+.table-bordered tr.bodyarea td {
+    vertical-align: middle;
+    text-align: center;
+    padding: 7px 0 7px 3px;
+    font-size: 10px;
+}
+
+.table-bordered tr.linetr td {
+    padding: 2px 0;
+}
+
+.table-top tr.header td {
+    text-align: left;
+    padding: 7px 0;
+}
+
+.table-top tr.header td span {
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.table-top {
+    margin-bottom: 15px;
+}
+
+.table-bordered tr.bodyarea td.t-right,
+.table-bordered tr.footer td.t-right {
+    text-align: right !important;
+}
+
+.table-bordered tr.bodyarea td.t-left,
+.table-bordered tr.footer td.t-left {
+    text-align: left !important;
+}
+
+.pad-bot-0 {
+    padding-bottom: 0px !important;
+}
+
+.headerdiv {
+    text-align: center;
+    padding-bottom: 5px;
+    display: block;
+    font-family: Arial;
+    border-bottom: 1px solid #000;
+    margin-bottom: 10px;
+}
+
+.footerdiv {
+    border-top: #000 1px solid;
+    font-size: 9px;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.t-right {
+    text-align: right !important;
+}
+
+.t-left {
+    text-align: left !important;
+}
+
+.t-center {
+    text-align: center !important;
+}
